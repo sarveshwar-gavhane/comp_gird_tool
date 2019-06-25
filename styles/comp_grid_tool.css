@@ -1,0 +1,444 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+    -ms-user-select: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-ui {
+    display: none;
+}
+
+.logo-section {
+    display: none;
+}
+
+.width10 {
+    width: 10%;
+    float: left;
+}
+
+.width90 {
+    width: 90%;
+    float: left;
+}
+
+#contentHeadingWrapper {
+    background: #004271;
+    display: none;
+    padding: 13px 25px;
+    font-size: 0.7em;
+}
+
+#contentHeadingWrapper .video_heading h3.last_viewed {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #74bbec;
+    padding-top: 9px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#contentHeadingWrapper .video_heading h2.topic_title {
+    font-size: 1.8em;
+    font-weight: 500;
+    padding-top: 5px;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.mcqBackBtn .backIcon {
+    font-size: 1.1em !important;
+    margin-top: 0px !important;
+}
+
+.waSolutionText p {
+    color: #222;
+}
+
+#solutionBox_0>p {
+    color: #222;
+}
+
+#contentWrapper {
+    width: 968px;
+    overflow: hidden;
+    height: 489px;
+    position: relative;
+    background: #e8f2fe;
+}
+
+.main_window {
+    position: relative;
+    margin-bottom: 7.9%;
+    background-color: #e8f2fe;
+}
+
+.main_window .main_img {
+    margin: 0px auto;
+    width: 441px;
+}
+
+.comp1-click1 {
+    width: 50%;
+    height: 81px;
+    position: absolute;
+    background-color: red;
+    left: 24%;
+    background: url(../images/transparent_bg.png);
+}
+
+.comp1-click2 {
+    width: 50%;
+    height: 60px;
+    position: absolute;
+    top: 24%;
+    left: 24%;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background: url(../images/transparent_bg.png);
+    cursor: default;
+}
+
+.comp1-click3 {
+    width: 50%;
+    height: 55px;
+    position: absolute;
+    top: 43%;
+    left: 24%;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    background: url(../images/transparent_bg.png);
+    cursor: default;
+}
+
+.comp1-click4 {
+    width: 40%;
+    height: 54px;
+    position: absolute;
+    top: 61%;
+    left: 25%;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background: url(../images/transparent_bg.png);
+    cursor: default;
+}
+
+ol li {
+    margin-left: 0 !important;
+}
+
+table tr th, table tr td, table tbody tr td, table tr td {
+    padding: 5px !important;
+}
+
+.main_box, .resultPage {
+    width: 100%;
+    margin: 0px auto;
+    overflow: hidden;
+    min-height: 400px;
+    position: relative;
+    background-image: none;
+    height: auto;
+}
+
+.main_box {
+    background: #e8f2fe !important;
+}
+
+.heading_box {
+    background: #195f9d;
+    height: 38px;
+    position: relative;
+}
+
+.heading_box h2 {
+    text-align: center;
+    line-height: 38px;
+    margin-left: -10px;
+    font-family: arial;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.heading_box .pagination {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.main_box {
+    height: 100%;
+    padding: 15px 18px;
+}
+
+.content_box h3 {
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.content_box h4 {
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 0;
+}
+
+.rightBtn {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.wrongBtn {
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.footerClass {
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+.submitBtn {
+    position: relative;
+    float: right;
+    background: #015f9d;
+    color: #ffffff;
+    padding: 5px 20px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+.error_Box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: none;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.error_Box .errorMsg {
+    width: 100%;
+    margin: 200px auto;
+    background-color: #007dc3;
+    border: 1px #bbbbbb solid;
+    padding: 20px;
+}
+
+.error_Box .ok_btn {
+    margin: 0px auto;
+}
+
+.resultPage .subHeadingText, .solutionPage .subHeadingText {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.waResult {
+    overflow: hidden;
+    margin-bottom: 5px;
+    border: 1px solid #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.waResultIcon {
+    width: 7%;
+    height: 50px;
+    float: left;
+    padding: 5px !important;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.waResultText {
+    float: left;
+    width: 95%;
+    padding: 15px 10px;
+    border-right: 1px solid #666;
+    border-left: 1px solid #666;
+}
+
+.waResultText h4 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.resultPage, .solutionPage {
+    display: none;
+}
+
+.backbtnClass, .nextbtnClass, .waResultsolutionButton {
+    position: relative;
+    float: left;
+    background: #015f9d;
+    color: #ffffff;
+    padding: 5px 20px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nextbtnClass {
+    float: right;
+}
+
+.waResultsolutionButton {
+    float: left;
+    margin: 1% 4%;
+    width: 15%;
+}
+
+.footerClass, #wonefooter {
+    width: 100%;
+}
+
+.ok_btn {
+    background: #ffffff;
+    max-width: 100px;
+    color: #005686;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    padding: 5px
+}
+
+.ok_btn:hover {
+    background: #78a22f;
+    color: #ffffff;
+}
+
+.error_Box .errorMsg p {
+    text-align: center;
+    padding-top: 13px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 18px;
+    margin: 0px;
+    padding: 15px 10px 10px 10px;
+}
+
+.header {
+    background-color: #e8f2fe !important;
+}
+
+.header p {
+    padding: 20px;
+    color: #222;
+}
+
+.clickBox {
+    position: relative;
+    background-color: #e8f2fe;
+    margin-top: 6%;
+}
+
+.windowsheader {
+    padding: 3% 3% 0% 3%;
+}
+
+.windowonesolutioninstructionClass {
+    margin-left: 14px;
+}
+
+.windowonesolutioninstructionClass p {
+    position: relative;
+    margin-top: 20px;
+}
+
+@media (max-width:768px) {
+    .waResultText {
+        width: 66%;
+    }
+    .waResultsolutionButton {
+        width: 17%;
+    }
+}
+
+@media (max-width:765px) and (min-width:521px) {
+    #contentWrapper {
+        height: auto;
+    }
+}
+
+@media (max-width:520px) {
+    .waResult {
+        display: block;
+        justify-content: initial;
+        align-items: initial;
+    }
+    .heading_box {
+        height: auto;
+    }
+    .heading_box h2 {
+        line-height: 24px;
+        font-size: 18px;
+        width: 70%;
+        text-align: left;
+        margin-left: 5px;
+    }
+    .waResultIcon {
+        width: 100%;
+        background-color: rgba(25, 95, 157, 0.07058823529411765);
+        text-align: center;
+    }
+    .waResultText {
+        width: 100%;
+        margin-left: 0px;
+        padding: 10px;
+        border-right: 0px solid #666;
+        border-left: 0px solid #666;
+    }
+    .waResultsolutionButton {
+        width: 96%;
+        margin: 1% 2%;
+    }
+    #contentWrapper {
+        height: auto;
+    }
+    .main_window .main_img {
+        width: 300px;
+    }
+    .comp1-click1 {
+        width: 94%;
+        height: 58px;
+        left: 3%;
+    }
+}
+

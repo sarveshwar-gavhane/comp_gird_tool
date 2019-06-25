@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp_grid_tool>
+     <resources>
+        <![CDATA[<p>There are no resources in this course.</p>]]>
+    </resources>
+    <transcript>
+        <![CDATA[<p>There is no transcript for this activity. </p>]]>
+    </transcript>
+<mainWindow>
+    <instruction><![CDATA[Seleccione a fase do processo de vendas que observou]]>
+    </instruction>
+</mainWindow>
+
+<window>
+    <stageId>0</stageId>
+    <stageSrc><![CDATA[./pages/DM_PO_POR_PerformanceAssessment_2018_L4T1/skin/big_1.png]]></stageSrc>
+    
+    <windowInstruction><![CDATA[<p>Seleccione quais as competências que viu na observação serem cumpridas e quais não foram.</p>
+    <p></p>]]></windowInstruction>
+
+  <!--Competency 1-->
+<competencyContent>
+
+<contentBox>
+    <content><![CDATA[<h4>As chamadas telefónicas são planeadas e realizadas em horários aceitáveis.</h4>]]></content>
+    <content><![CDATA[<h4>O Consultor apresenta-se a si e à Companhia.</h4>]]></content>
+    <content><![CDATA[<h4>Objectivo da chamada telefónica é explicado de uma forma clara e assegurando que fala com a pessoa certa.</h4>]]></content>
+    <content><![CDATA[<h4>As vantagens do contacto presencial são explicadas de forma clara e precisa.</h4>]]></content>
+    <footer><![CDATA[ <div id="footer" class="footerClass inst">
+            <div class="intruction"><h5></h5></div>
+            <div class="nextbtnClass">Continuă</div> </div>]]>
+    </footer>
+</contentBox>
+
+<contentBox>
+    <content><![CDATA[<h4>A reunião é agendada com o potencial cliente, comprometendo-o.</h4>]]></content>
+    <content><![CDATA[<h4>A chamada telefónica é efectuada de uma forma cordial, eficiente e profissional.</h4>]]></content>
+    <content><![CDATA[<h4>O agendamento da reunião é registado na agenda do Consultor correctamente.</h4>]]></content>
+    <content><![CDATA[<h4>A reunião acontece no dia e hora prevista</h4>]]></content>
+    <footer>
+        <![CDATA[<div id="footer" class="footerClass inst">
+                <div class="intruction"><h5></h5></div>
+                <div class="nextbtnClass">Continuă</div>
+                <div class="backbtnClass">Voltar</div></div>]]>
+    </footer>
+</contentBox>
+
+<contentBox>
+    <content><![CDATA[<h4>A reunião é agendada com o potencial cliente, comprometendo-o.</h4>]]></content>
+    <content><![CDATA[<h4>A chamada telefónica é efectuada de uma forma cordial, eficiente e profissional.</h4>]]></content>
+    <content><![CDATA[<h4>O agendamento da reunião é registado na agenda do Consultor correctamente.</h4>]]></content>
+    <content><![CDATA[<h4>A reunião acontece no dia e hora prevista</h4>]]></content>
+    <footer>
+        <![CDATA[<div id="footer" class="footerClass inst">
+                <div class="intruction"><h5></h5></div>
+                <div class="submitBtn">Submeter</div>
+                <div class="backbtnClass">Voltar</div></div>]]>
+    </footer>
+</contentBox>
+</competencyContent>
+
+    <resultContent>
+    <resultInstruction><![CDATA[<p>Clicar no botão “Soluções” para quaisquer competências não cumpridas.</p>]]></resultInstruction>
+    <resultHeading><![CDATA[<h2>Resumo - Da Segunda Reunião ao Fecho:</h2>]]></resultHeading>
+    <resultSubHeading><![CDATA[<h3>Competências que não cumprem os requisitos:</h3>]]></resultSubHeading>
+
+    </resultContent>
+    <solutionContent>
+    <solutionInstruction><![CDATA[<p>Anote ou imprima as acções recomendadas. Depois, clique em «Voltar» para analisar outras situações ou seleccione uma fase diferente do ciclo de vendas na imagem do funil de vendas.</p>]]></solutionInstruction>
+    <solutionBoxHeading><![CDATA[<h2>Resumo - Da Segunda Reunião ao Fecho:</h2>]]></solutionBoxHeading>
+    <solutionSubHeading><![CDATA[<h3>Competências:</h3>]]></solutionSubHeading>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">Análise Financeira foi bem preparada e contém toda a informação necessária</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">Usar a Análise Financeira e Construir o Plano de Protecção</li></ol></p>]]></solution>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">Todas as recomendações do Plano de Protecção satisfazem as necessidades e prioridades do cliente</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">Usar a Análise Financeira e Construir o Plano de Protecção</li></ol></p>]]></solution>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">No início da reunião, o cliente é colocado à vontade, cria-se empatia e é mencionado o objectivo da reunião</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">Escuta Activa e Competências de comunicação</li></ol></p>]]></solution>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">Faz uma boa ligação de volta às necessidades acordadas e priorizadas na Pesquisa de Necessidades</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">Best Practices com especialista em Fecho</li></ol></p>]]></solution>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">A Análise Financeira é apresentada e explicados os cálculos e valores</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">Usar a Análise Financeira e Construir o Plano de Protecção</li></ol></p>]]></solution>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">Todas as recomendações explicadas de forma clara e precisa e a um nível e ritmo adequado para promover a compreensão</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">Escuta Activa e Competências de comunicação</li></ol></p>]]></solution>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">As principais caraterísticas e vantagens das coberturas do Plano de protecção são detalhadas de forma clara, precisa e a um nível adequado ao cliente</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">Sales-talk da Reunião de Fecho</li></ol></p>]]></solution>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">Os promenores técnicos de alguns produtos, incluindo direitos de resgate e resolução são explicadas</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">Sales-talk da Reunião de Fecho</li></ol></p>]]></solution>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">Consegue fechos parciais das várias coberturas e capitais</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">Sales-talk da Reunião de Fecho</li></ol></p>]]></solution>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">As objecções do cliente são exploradas e ultrapassadas</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">Usar a Análise Financeira e Construir o Plano de Protecção</li></ol></p>]]></solution>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">Os sinais de intenção de compra do cliente são correctamente interpretados e aproveitados.</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">Sales-talk da Reunião de Fecho</li></ol></p>]]></solution>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">A(s) proposta(s) é correctamente preenchida durante a reunião.</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">Sales-Talk de Referências</li></ol></p>]]></solution>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">É dada uma explicação clara sobre o que acontece em seguida e quando (Underwriting, etc).</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">Sales-talk da Reunião de Fecho</li></ol></p>]]></solution>
+
+    <solution><![CDATA[<p style="margin-bottom: 15px;">Feito o follow-up de referências de uma forma positiva.</p><p>Para ajudar o seu Consultor a melhorar as suas competências, recomendamos que se centre nos seguintes aspectos-chave<br><ol><li style="margin-left: 40px;">) Sales-Talk de Referências</li></ol></p>]]></solution>
+    </solutionContent>
+
+    <errorMessage><![CDATA[<p style="padding-top: 20px;">Por favor seleccionar uma resposta para cada competência, antes de clicar no botão “Submeter”.</p><div style="margin-top:10px;" id="okbtn_2" class="ok_btn">OK</div>]]></errorMessage>
+          
+          <errorContinueMessage><![CDATA[<p style="padding-top:20px;">Por favor seleccionar uma resposta para cada competência, antes de clicar no botão “Submeter”.</p><div style="margin-top:10px;" id="okbtn_2" class="ok_btn">OK</div>]]></errorContinueMessage>
+          
+          <errorWrongMessage><![CDATA[<p>Seleccionou mais do que três competências que não foram observadas. Por favor retroceda e priorize-as, seleccionando um máximo de três necessidades de desenvolvimento.</p><div id="okbtn_2" class="ok_btn">OK</div>]]></errorWrongMessage>
+</window>
+
+</comp_grid_tool>
